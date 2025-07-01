@@ -2742,10 +2742,11 @@ footer {
     html { 
         overflow-x: hidden;
     } 
-
+    /*
     .scrollspy-example {
+        
         display: none;
-    }
+    } */
 
     .hey-mojie {
         font-size: 2em;
@@ -3053,6 +3054,56 @@ footer {
         margin-left: 6.5%;
         margin-right: 6.5%;
         z-index: -1000;
+    }
+
+    .nav-header-staffme-team {
+        display: block;
+        position: fixed;
+        width: 100%;
+        background-color: white;
+        border-bottom: 1px #CACACA solid;
+        height: 72px;
+        z-index: 50000;
+    }
+
+    .list-group-item {
+        display: block;
+    }
+
+    /*
+    .bioblock-staffme-team {
+    } */
+
+    .bio-staffme-team {
+        position: fixed;
+        margin-left: 5%;
+        margin-top: 7px;
+    }
+
+    .cover-credit {
+        position: absolute;
+        width: max-content; /* Force à rester sur une ligne */
+        white-space: nowrap;
+        top: 725px;
+        width: fit-content;
+        font-size: 0.7em;
+        transform: translate(-50%,-50%);
+        background-color: rgba(239, 239, 239, 0.751);
+        border-radius: 7px;
+        padding: 12px;
+        color: rgb(59, 59, 59);
+    }
+
+    .cover-credit:hover {
+        position: absolute;
+        top: 725px;
+        left: 50%;
+        font-size: 0.7em;
+        transform: translate(-50%,-50%);
+        background-color: rgb(239, 239, 239);
+        border-radius: 7px;
+        padding: 12px;
+        color: black;
     }
 
 }
